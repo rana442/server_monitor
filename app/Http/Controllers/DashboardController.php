@@ -83,6 +83,7 @@ class DashboardController extends Controller
 
     public function partial(Request $request)
     {
+        $deviceGroupColors = $this->deviceGroupColors;
         $status       = $request->get('status');
         $deviceGroup  = $request->get('device_group');
 
@@ -138,6 +139,7 @@ class DashboardController extends Controller
         =============================== */
         return view('dashboard.partials.data', [
             'monitors' => $monitors,
+            'deviceGroupColors' => $deviceGroupColors,
         ]);
     }
 

@@ -1,12 +1,3 @@
-@php
-$deviceGroupColors = [
-    'Core Device' => 'primary',
-    'OLT'         => 'success',
-    'Switch'      => 'info',
-    'Camera'      => 'warning',
-    'Mikrotik'    => 'danger',
-];
-@endphp
 
 
 {{-- TABLE --}}

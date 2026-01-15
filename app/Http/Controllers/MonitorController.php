@@ -57,7 +57,7 @@ class MonitorController extends Controller
             'url' => 'required',
             'type' => 'required|in:http,ping,port',
             'interval' => 'required|integer|min:1|max:300',
-            'device_group' => 'required|in:Core Device,OLT,Switch,Camera,Mikrotik',
+            'device_group' => 'required',
         ]);
 
         Monitor::create([
@@ -114,7 +114,7 @@ class MonitorController extends Controller
             'notify_on_down' => 'nullable|boolean',
             'notify_on_up' => 'nullable|boolean',
             'is_active' => 'nullable|boolean',
-            'device_group' => 'required|in:Core Device,OLT,Switch,Camera,Mikrotik',
+            'device_group' => 'required',
         ]);
         
         $monitor->update([
