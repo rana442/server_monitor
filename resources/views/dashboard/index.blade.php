@@ -59,16 +59,6 @@
     </div>
 </div>
 
-@php
-$deviceGroupColors = [
-    'Core Device' => 'primary',
-    'OLT'         => 'success',
-    'Switch'      => 'info',
-    'Camera'      => 'warning',
-    'Mikrotik'    => 'danger',
-];
-@endphp
-
 <div class="row mb-3" id="device-group-cards">
 @foreach($deviceGroupColors as $group => $color)
 <div class="col-md-2 col-6 mb-2">

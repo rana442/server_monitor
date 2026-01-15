@@ -10,6 +10,11 @@ class MonitorController extends Controller
     /**
      * Display a listing of the resource.
      */
+
+    public function __construct(){
+        
+        
+    }
     public function index(Request $request)
     {
         $search = $request->get('search');
@@ -38,7 +43,8 @@ class MonitorController extends Controller
      */
     public function create()
     {
-        return view('admin.monitors.create');
+        $deviceGroups =  $this->deviceGroups;
+        return view('admin.monitors.create',compact('deviceGroups'));
     }
 
     /**
@@ -82,7 +88,9 @@ class MonitorController extends Controller
     public function edit(Monitor $monitor)
     {
         // return $monitor;
-        return view('admin.monitors.edit', compact('monitor'));
+        $deviceGroups =  $this->deviceGroups;
+
+        return view('admin.monitors.edit', compact('monitor','deviceGroups'));
     }
 
     /**

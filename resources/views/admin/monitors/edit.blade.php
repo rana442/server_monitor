@@ -85,14 +85,16 @@
                             </div>
                              <div class="col-md-4 mb-3">
                                 <label for="device_group" class="form-label">Group *</label>
-                                <select class="form-select @error('device_group') is-invalid @enderror" 
+                                <select class="form-select @error('device_group') is-invalid @enderror"
                                         id="device_group" name="device_group" required>
                                     <option value="">Select Group</option>
-                                    <option value="Core Device" {{ old('device_group', $monitor->device_group) == 'Core Device' ? 'selected' : '' }}>Core Device</option>
-                                    <option value="OLT" {{ old('device_group', $monitor->device_group) == 'OLT' ? 'selected' : '' }}>OLT</option>
-                                    <option value="Switch" {{ old('device_group', $monitor->device_group) == 'Switch' ? 'selected' : '' }}>Switch</option>
-                                    <option value="Camera" {{ old('device_group', $monitor->device_group) == 'Camera' ? 'selected' : '' }}>Camera</option>
-                                    <option value="Mikrotik" {{ old('device_group', $monitor->device_group) == 'Mikrotik' ? 'selected' : '' }}>Mikrotik</option>
+
+                                    @foreach ($deviceGroups as $group)
+                                        <option value="{{ $group }}"
+                                            {{ old('device_group', $monitor->device_group ?? '') == $group ? 'selected' : '' }}>
+                                            {{ $group }}
+                                        </option>
+                                    @endforeach
                                 </select>
                                 @error('device_group')
                                     <div class="invalid-feedback">{{ $message }}</div>

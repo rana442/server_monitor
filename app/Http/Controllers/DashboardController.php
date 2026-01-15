@@ -10,8 +10,10 @@ class DashboardController extends Controller
 {
     public function index(Request $request)
     {
+        $deviceGroupColors = $this->deviceGroupColors;
         $status = $request->get('status'); // up | down | null
         $deviceGroup  = $request->get('device_group');
+
 
         $query = Monitor::where('is_active', true);
 
@@ -49,7 +51,8 @@ class DashboardController extends Controller
             'avgUptime',
             'status',
             'deviceGroup',
-            'deviceGroupCounts'
+            'deviceGroupCounts',
+            'deviceGroupColors',
         ));
     }
 

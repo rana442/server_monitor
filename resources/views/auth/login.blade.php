@@ -68,10 +68,7 @@
                         <a href="{{ route('password.request') }}" class="text-decoration-none">
                             Forgot password?
                         </a>
-                        <!-- <span class="mx-2">|</span>
-                        <a href="{{ route('register') }}" class="text-decoration-none">
-                            Create account
-                        </a> -->
+                        
                     </div>
                 </form>
             </div>
