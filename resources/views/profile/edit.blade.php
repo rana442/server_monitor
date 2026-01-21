@@ -56,10 +56,10 @@
                                    id="email" value="{{ auth()->user()->email }}" readonly>
                             <small class="text-muted">Email address cannot be changed.</small>
                         </div>
-
+                        <input type="hidden" name="dark_mode" value="0">
                         <div class="mb-3 form-check">
                             <input type="checkbox" class="form-check-input" 
-                                   id="dark_mode" name="dark_mode" 
+                                   id="dark_mode" name="dark_mode" value="1"
                                    {{ (auth()->user()->settings && auth()->user()->settings->dark_mode) ? 'checked' : '' }}>
                             <label class="form-check-label" for="dark_mode">
                                 Enable Dark Mode

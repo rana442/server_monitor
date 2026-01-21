@@ -35,7 +35,7 @@ class ProfileController extends Controller
         // Update or create user settings
         UserSetting::updateOrCreate(
             ['user_id' => $request->user()->id],
-            ['dark_mode' => $request->boolean('dark_mode', false)]
+            ['dark_mode' => $request->dark_mode]
         );
         
         return back()->with('success', 'Profile updated successfully.');

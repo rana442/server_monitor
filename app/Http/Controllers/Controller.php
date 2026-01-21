@@ -9,11 +9,13 @@ abstract class Controller
         'Camera',
         'Core Device',
         'Corporate',
+        'Fiber Path',
         'Mikrotik',
         'OLT',
         'Switch',
         'Server',
         'Upstream',
+        'Vendor',
     ];
     
     protected array $deviceGroupColors = [
@@ -21,10 +23,12 @@ abstract class Controller
         'Camera'      => 'warning',
         'Core Device' => 'primary',
         'Corporate'   => 'info',
-        'Mikrotik'    => 'danger',
-        'OLT'         => 'success',
-        'Switch'      => 'info',
-        'Server'      => 'light',
-        'Upstream'    => 'secondary',
+        'Fiber Path'   => 'danger',
+        'Mikrotik'    => 'success',
+        'OLT'         => 'secondary',
+        'Switch'      => 'warning',
+        'Server'      => 'primary',
+        'Upstream'    => 'info',
+        'Vendor'    => 'danger',
     ];
 }
