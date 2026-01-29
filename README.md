@@ -52,13 +52,14 @@ Each device group is displayed with a live count for quick assessment.
 ## 🖼️ Screenshots
 
 ### Server Status Dashboard
-![Dashboard Overview](monitor3.png)
+![Dashboard Overview](screenshots/monitor3.png)
+
 
 ### All Monitors View
-![All Monitors](monitor2.png)
+![All Monitors](screenshots/monitor2.png)
 
 ### Detailed Monitor List
-![Monitor List](monitor1.png)
+![Monitor List](screenshots/monitor1.png)
 
 ---
 
