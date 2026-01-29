@@ -51,9 +51,11 @@ Each device group is displayed with a live count for quick assessment.
 
 ## 🖼️ Screenshots
 ### Login Panel
-![Dashboard](screenshots/login.png)
+![Login Panel](screenshots/login.png)
 
-### Server Status Dashboard
+### Dashboard
+![Dashboard Overview](screenshots/monitor1.png)
+![Dashboard Overview](screenshots/monitor2.png)
 ![Dashboard Overview](screenshots/monitor3.png)
 
 
