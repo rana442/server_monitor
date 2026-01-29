@@ -55,13 +55,13 @@ Each device group is displayed with a live count for quick assessment.
 
 ### Dashboard
 ![Dashboard Overview](screenshots/monitor1.png)
-![Dashboard Overview](screenshots/monitor2.png)
-![Dashboard Overview](screenshots/monitor3.png)
+<!-- ![Dashboard Overview](screenshots/monitor2.png)
+![Dashboard Overview](screenshots/monitor3.png) -->
 
 
 ### Devices Status View
-![Devices Status View ON](screenshots/monitor4.png)
-![Devices Status View OFF](screenshots/monitor5.png)
+<!-- ![Devices Status View ON](screenshots/monitor4.png)
+![Devices Status View OFF](screenshots/monitor5.png) -->
 
 ### Admin Dashboard and Profile
 ![Dashboard](screenshots/monitor8.png)
@@ -69,8 +69,8 @@ Each device group is displayed with a live count for quick assessment.
 ![Devices List with Status](screenshots/monitor9.png)
 
 ### Device and User Management 
-![Device management](screenshots/monitor10.png)
-![User management](screenshots/monitor11.png)
+<!-- ![Device management](screenshots/monitor10.png)
+![User management](screenshots/monitor11.png) -->
 
 
 ---
