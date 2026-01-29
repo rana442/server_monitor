@@ -1,5 +1,5 @@
 🚀 Server Monitor & Network Status Dashboard
-https://screenshots/monitor1.png
+screenshots/monitor1.png
 
 A sleek, real-time Server & Network Monitoring Dashboard built for network administrators and IT teams. Monitor servers, routers, switches, cameras, OLTs, Mikrotik devices, upstream links, and power sources—all from a single, unified interface.
 
@@ -32,23 +32,23 @@ Vendor Devices	Third-party hardware and appliances
 📸 Screenshots
 <div align="center">
 🔐 Login Panel
-https://screenshots/login.png
+screenshots/login.png
 
 📊 Dashboard Overview
-https://screenshots/monitor1.png
+screenshots/monitor1.png
 
 🖥️ Devices Status View
-https://screenshots/monitor4.png
-https://screenshots/monitor5.png
+screenshots/monitor4.png
+screenshots/monitor5.png
 
 ⚙️ Admin Dashboard & Profile
-https://screenshots/monitor8.png
-https://screenshots/monitor6.png
-https://screenshots/monitor9.png
+screenshots/monitor8.png
+screenshots/monitor6.png
+screenshots/monitor9.png
 
 👥 Device & User Management
-https://screenshots/monitor10.png
-https://screenshots/monitor11.png
+screenshots/monitor10.png
+screenshots/monitor11.png
 
 </div>
 Note: All screenshots are standardized to 1280×720 resolution for consistent viewing.
