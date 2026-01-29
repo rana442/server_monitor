@@ -1,94 +1,72 @@
-# 📊 Server Monitor & Network Status Dashboard
+🚀 Server Monitor & Network Status Dashboard
+https://screenshots/monitor1.png
 
-A modern, real-time **Server & Network Monitoring Dashboard** designed to monitor servers, routers, switches, cameras, OLTs, Mikrotik devices, upstream links, and power sources from a single unified interface.
+A sleek, real-time Server & Network Monitoring Dashboard built for network administrators and IT teams. Monitor servers, routers, switches, cameras, OLTs, Mikrotik devices, upstream links, and power sources—all from a single, unified interface.
 
-This system provides **live status**, **uptime tracking**, **device grouping**, and **visual health indicators** to help network and system administrators quickly detect and resolve issues.
+With live status updates, uptime tracking, and visual health indicators, you can detect and resolve issues faster, ensuring optimal network performance and reliability.
 
----
+✨ Features
+Feature	Description
+✅ Real-Time Monitoring	Live status checks for servers, devices, and network links.
+📈 Uptime Tracking	Continuous availability tracking with uptime percentage.
+🔄 Auto-Refresh	Dashboard updates automatically to reflect current status.
+🎨 Visual Indicators	Color-coded status (🟢 UP / 🟡 WARNING / 🔴 DOWN) for quick assessment.
+🗂️ Device Grouping	Organize devices by type: Servers, OLTs, Cameras, Switches, etc.
+🌐 Multi-Protocol Checks	Supports ping, HTTP, TCP, and custom port monitoring.
+📊 Summary Dashboard	Overview of total devices, uptime stats, and category-wise counts.
+🌙 Dark-Mode UI	Eye-friendly dark theme designed for extended use.
+🔐 Secure Login	Role-based access control for admins and viewers.
+📦 Supported Device Categories
+Category	Examples
+Servers	Web servers, database servers, application servers
+Core Devices	Core routers, core switches
+OLT	Optical Line Terminals
+Switch	Network switches (managed/unmanaged)
+Mikrotik	MikroTik routers and devices
+Corporate Links	VPN links, leased lines
+Fiber Paths	Fiber-optic network paths
+Upstream Providers	ISP upstream links
+Cameras	IP cameras, NVR systems
+AC Power / Power Routers	Power sources, UPS devices
+Vendor Devices	Third-party hardware and appliances
+📸 Screenshots
+<div align="center">
+🔐 Login Panel
+https://screenshots/login.png
 
-## 🚀 Features
+📊 Dashboard Overview
+https://screenshots/monitor1.png
 
-- ✅ Real-time server & device status monitoring  
-- 📈 Uptime & availability tracking  
-- 🔄 Auto-refresh dashboard (enabled by default)  
-- 🟢🟡🔴 Clear UP / DOWN visual indicators  
-- 🗂️ Device grouping (Server, Corporate, OLT, Camera, AC Power, Mikrotik, etc.)
-- 🌐 URL / IP based monitoring
-- 👀 Detailed monitor view for each device
-- 📊 Summary statistics dashboard
-- 🌙 Dark mode friendly UI
+🖥️ Devices Status View
+https://screenshots/monitor4.png
+https://screenshots/monitor5.png
 
----
+⚙️ Admin Dashboard & Profile
+https://screenshots/monitor8.png
+https://screenshots/monitor6.png
+https://screenshots/monitor9.png
 
-## 🧩 Device Categories Supported
+👥 Device & User Management
+https://screenshots/monitor10.png
+https://screenshots/monitor11.png
 
-- **Servers**
-- **Core Devices**
-- **OLT**
-- **Switch**
-- **Mikrotik**
-- **Corporate Links**
-- **Fiber Paths**
-- **Upstream Providers**
-- **Cameras (NVR/IP Cam)**
-- **AC Power / Power Routers**
-- **Vendor Devices**
+</div>
+Note: All screenshots are standardized to 1280×720 resolution for consistent viewing.
 
----
+🛠️ Tech Stack
+Layer	Technology
+Backend	PHP, Laravel / Node.js (as applicable)
+Frontend	HTML5, CSS3, JavaScript, Bootstrap 5
+Database	MySQL / MariaDB
+Monitoring Engine	Custom ping/HTTP/TCP checks
+UI Theme	Custom dark admin dashboard
+Charts/Graphs	Chart.js or similar (if applicable)
+⚙️ Installation & Setup
+Prerequisites
+Web server (Apache/Nginx)
 
-## 📌 Dashboard Overview
+PHP 7.4+ or Node.js (depending on backend)
 
-### 🔢 Overall Statistics
-- **Total Monitors**
-- **Total UP**
-- **Total DOWN**
-- **Average Uptime (%)**
+MySQL/MariaDB
 
-### 📦 Device Count by Category
-Each device group is displayed with a live count for quick assessment.
-
----
-
-## 🖼️ Screenshots
-### Login Panel
-![Login Panel](screenshots/login.png)
-
-### Dashboard
-![Dashboard Overview](screenshots/monitor1.png)
-<!-- ![Dashboard Overview](screenshots/monitor2.png)
-![Dashboard Overview](screenshots/monitor3.png) -->
-
-
-### Devices Status View
-<!-- ![Devices Status View ON](screenshots/monitor4.png)
-![Devices Status View OFF](screenshots/monitor5.png) -->
-
-### Admin Dashboard and Profile
-![Dashboard](screenshots/monitor8.png)
-![Profile Information](screenshots/monitor6.png)
-![Devices List with Status](screenshots/monitor9.png)
-
-### Device and User Management 
-<!-- ![Device management](screenshots/monitor10.png)
-![User management](screenshots/monitor11.png) -->
-
-
----
-
-## 🛠️ Tech Stack
-
-> *(Update this section if needed)*
-
-- **Backend:** PHP / Laravel / Node.js *(as applicable)*
-- **Frontend:** HTML, CSS, JavaScript, Bootstrap
-- **Database:** MySQL / MariaDB
-- **Monitoring:** Ping / HTTP / TCP checks
-- **UI Theme:** Dark Admin Dashboard
-
----
-
-## ⚙️ Installation
-
-```bash
-git clone https://github.com/yourusername/server-monitor-dashboard.git
-cd server-monitor-dashboard
+Git
