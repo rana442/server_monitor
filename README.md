@@ -61,7 +61,7 @@ With **live status updates**, **uptime tracking**, and **visual health indicator
 
 ### 👥 Device & User Management
 ![Device Management](screenshots/monitor10.png)
-![User Management](screenshots/monitor11.png)
+<!-- ![User Management](screenshots/monitor11.png) -->
 
 > **Note:** All screenshots are standardized to 1280×720 resolution for consistent viewing.
 
@@ -73,9 +73,9 @@ With **live status updates**, **uptime tracking**, and **visual health indicator
 |-------|------------|
 | **Backend** | PHP, Laravel / Node.js (as applicable) |
 | **Frontend** | HTML5, CSS3, JavaScript, Bootstrap 5 |
-| **Database** | MySQL / MariaDB |
+| **Database** | MySQL |
 | **Monitoring Engine** | Custom ping/HTTP/TCP checks |
-| **UI Theme** | Custom dark admin dashboard |
+| **UI Theme** | Custom dark and white admin dashboard |
 | **Charts/Graphs** | Chart.js or similar (if applicable) |
 
 ---
