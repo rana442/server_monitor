@@ -50,16 +50,28 @@ Each device group is displayed with a live count for quick assessment.
 ---
 
 ## 🖼️ Screenshots
+### Login Panel
+![Login Panel](screenshots/login.png)
 
-### Server Status Dashboard
+### Dashboard
+![Dashboard Overview](screenshots/monitor1.png)
+![Dashboard Overview](screenshots/monitor2.png)
 ![Dashboard Overview](screenshots/monitor3.png)
 
 
-### All Monitors View
-![All Monitors](screenshots/monitor2.png)
+### Devices Status View
+![Devices Status View ON](screenshots/monitor4.png)
+![Devices Status View OFF](screenshots/monitor5.png)
 
-### Detailed Monitor List
-![Monitor List](screenshots/monitor1.png)
+### Admin Dashboard and Profile
+![Dashboard](screenshots/monitor8.png)
+![Profile Information](screenshots/monitor6.png)
+![Devices List with Status](screenshots/monitor9.png)
+
+### Device and User Management 
+![Device management](screenshots/monitor10.png)
+![User management](screenshots/monitor11.png)
+
 
 ---
 
